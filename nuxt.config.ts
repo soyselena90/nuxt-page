@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     },
     modules: [
         '@primevue/nuxt-module',
+        '@nuxtjs/color-mode'
     ],
     primevue: {
         options: {
@@ -28,4 +29,7 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    colorMode: {
+        classSuffix: ''
+    }
 })
