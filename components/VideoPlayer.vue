@@ -12,7 +12,7 @@
         <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/zPi4WkHKA58?si=GQRJYCVInW-uk23T"
+            :src="src"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
@@ -21,7 +21,14 @@
     </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+interface Props {
+    src?: string;
+}
+withDefaults(defineProps<Props>(), {
+    src: 'https://www.youtube.com',
+});
+</script>
 
 <style scoped>
 .video-container {

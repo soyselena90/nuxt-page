@@ -3,9 +3,8 @@ import type {Items} from "~/types/items";
 const datas: Items[] = [
     {
         id: 1,
-        title: "Leanne Graham",
-        video: "Bret",
-        subtitle: "Sincere@april.biz",
+        title: "금지된 사랑",
+        subtitle: "이승기",
         address: {
             street: "Kulas Light",
             suite: "Apt. 556",
@@ -16,20 +15,21 @@ const datas: Items[] = [
                 lng: "81.1496"
             }
         },
-        phone: "1-770-736-8031 x56442",
-        itemSlug: "hildegard.org",
+        phone: "1-770-736-8031",
+        itemSlug: "mrlee",
         company: {
             title: "Romaguera-Crona",
             catchPhrase: "Multi-layered client-server neural-net",
             bs: "harness real-time e-markets"
         },
-        thumbnail: "https://primefaces.org/cdn/primevue/images/usercard.png"
+        thumbnail: "https://primefaces.org/cdn/primevue/images/usercard.png",
+        video: "https://www.youtube.com/embed/zPi4WkHKA58?si=cNA4sShPuP_QNWsK"
     },
     {
         id: 2,
-        title: "Ervin Howell",
-        video: "Antonette",
-        subtitle: "Shanna@melissa.tv",
+        title: "Marry You",
+        video: "https://www.youtube.com/embed/WG4nysmJKCg?si=Q1a2zn09NWaC40g9",
+        subtitle: "Diamond Platnumz Ft Ne-yo",
         address: {
             street: "Victor Plains",
             suite: "Suite 879",
@@ -40,20 +40,21 @@ const datas: Items[] = [
                 lng: "-34.4618"
             }
         },
-        phone: "010-692-6593 x09125",
-        itemSlug: "anastasia.net",
+        phone: "010-692-6593",
+        itemSlug: "anastet",
         company: {
             title: "Deckow-Crist",
             catchPhrase: "Proactive didactic contingency",
             bs: "synergize scalable supply-chains"
         },
-        thumbnail: "https://primefaces.org/cdn/primevue/images/usercard.png"
+        thumbnail: "https://primefaces.org/cdn/primevue/images/usercard.png",
+
     },
     {
         id: 3,
-        title: "Clementine Bauch",
-        video: "Samantha",
-        subtitle: "Nathan@yesenia.net",
+        title: "Cliche, 지구가 태양을 네번",
+        video: "https://www.youtube.com/embed/GMPIb9P_SsU?si=L7YNyeq8zfYjnKo6",
+        subtitle: "넬",
         address: {
             street: "Douglas Extension",
             suite: "Suite 847",
@@ -65,7 +66,7 @@ const datas: Items[] = [
             }
         },
         phone: "1-463-123-4447",
-        itemSlug: "ramiro.info",
+        itemSlug: "ramiro",
         company: {
             title: "Romaguera-Jacobson",
             catchPhrase: "Face to face bifurcated interface",
@@ -75,9 +76,9 @@ const datas: Items[] = [
     },
     {
         id: 4,
-        title: "Patricia Lebsack",
-        video: "Karianne",
-        subtitle: "Julianne.OConner@kory.org",
+        title: "너의 모든 순간, 좋을텐데, 넌 감동이었어, 희재",
+        video: "https://www.youtube.com/embed/6RQ-bBdASvk?si=mmi_rirxr6M2yFwN",
+        subtitle: "성시경",
         address: {
             street: "Hoeger Mall",
             suite: "Apt. 692",
@@ -89,7 +90,7 @@ const datas: Items[] = [
             }
         },
         phone: "493-170-9623 x156",
-        itemSlug: "kale.biz",
+        itemSlug: "kale",
         company: {
             title: "Robel-Corkery",
             catchPhrase: "Multi-tiered zero tolerance productivity",
@@ -99,9 +100,9 @@ const datas: Items[] = [
     },
     {
         id: 5,
-        title: "Chelsey Dietrich",
-        video: "Kamren",
-        subtitle: "Lucio_Hettinger@annie.ca",
+        title: "커피한잔할래요,우리만남이,모든날모든순간",
+        video: "https://www.youtube.com/embed/JbUSH6ZZ1LU?si=VuEjmnXlXfn36hL3",
+        subtitle: "폴킴",
         address: {
             street: "Skiles Walks",
             suite: "Suite 351",
@@ -113,7 +114,7 @@ const datas: Items[] = [
             }
         },
         phone: "(254)954-1289",
-        itemSlug: "demarco.info",
+        itemSlug: "demarco",
         company: {
             title: "Keebler LLC",
             catchPhrase: "User-centric fault-tolerant solution",
@@ -137,7 +138,7 @@ const datas: Items[] = [
             }
         },
         phone: "1-477-935-8478 x6430",
-        itemSlug: "ola.org",
+        itemSlug: "ola",
         company: {
             title: "Considine-Lockman",
             catchPhrase: "Synchronised bottom-line interface",
@@ -161,7 +162,7 @@ const datas: Items[] = [
             }
         },
         phone: "210.067.6132",
-        itemSlug: "elvis.io",
+        itemSlug: "elvisio",
         company: {
             title: "Johns Group",
             catchPhrase: "Configurable multimedia task-force",
@@ -185,7 +186,7 @@ const datas: Items[] = [
             }
         },
         phone: "586.493.6943 x140",
-        itemSlug: "jacynthe.com",
+        itemSlug: "jacynthecom",
         company: {
             title: "Abernathy Group",
             catchPhrase: "Implemented secondary concept",
@@ -209,7 +210,7 @@ const datas: Items[] = [
             }
         },
         phone: "(775)976-6794 x41206",
-        itemSlug: "conrad.com",
+        itemSlug: "conradom",
         company: {
             title: "Yost and Sons",
             catchPhrase: "Switchable contextually-based project",
@@ -233,7 +234,7 @@ const datas: Items[] = [
             }
         },
         phone: "024-648-3804",
-        itemSlug: "ambrose.net",
+        itemSlug: "ambrosnet",
         company: {
             title: "Hoeger LLC",
             catchPhrase: "Centralized empowering task-force",

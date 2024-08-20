@@ -1,10 +1,10 @@
 <template>
-    <Card style="width: 100%; overflow: hidden">
+    <Card style="width: 100%; overflow: hidden" @click="$emit('click')">
         <template #header>
             <img alt="user header" :src="thumbnail"/>
         </template>
         <template #title>{{ title }}</template>
-        <template #subtitle></template>
+        <template #subtitle>{{ subtitle }}</template>
         <template #content>
             <p class="m-0">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae
@@ -14,12 +14,6 @@
                 neque
                 quas!
             </p>
-        </template>
-        <template #footer>
-            <div class="flex gap-4 mt-1">
-                <Button label="Cancel" severity="secondary" outlined class="w-full"/>
-                <Button label="Save" class="w-full"/>
-            </div>
         </template>
     </Card>
 </template>

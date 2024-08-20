@@ -20,5 +20,5 @@ export interface Items {
         catchPhrase: string,
         bs: string
     },
-    thumbnail: string
+    thumbnail: string,
 }
