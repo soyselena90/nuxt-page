@@ -47,7 +47,6 @@
                 <Menu ref="menu" id="overlay_menu" :model="logoutMenu" :popup="true"/>
             </div>
         </template>
-
     </Menubar>
 </template>
 
@@ -57,9 +56,14 @@ import {ref} from "vue";
 const router = useRouter();
 const items = ref([
     {
+        label: '유투브',
+        icon: 'pi pi-youtube',
+        link: '/'
+    },
+    {
         label: '광고 관리',
         icon: 'pi pi-megaphone',
-        link: '/'
+        link: '/gg'
     },
     {
         label: '랜딩폼 관리',
@@ -141,6 +145,7 @@ const toggle = (event) => {
     padding: 0;
     height: 48px;
     border-radius: 0;
+    border-bottom: 1px solid #DEE2E6;
 
     span, i {
         color: black;
